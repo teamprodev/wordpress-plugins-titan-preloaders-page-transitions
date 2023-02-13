@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Titan Preloaders & Page Transitions WordPress Plugin Documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="GFX Partner">
+
+  <!-- Le styles -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+
+<body data-spy="scroll" id="top">
+
+  <!-- Documentation Navbar -->
+
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container"> 
+        <div class="bar">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span
+            class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+          <a class="brand" href="#">
+            <img src="assets/img/logo-white-2.png" alt="logo">
+          </a>
+        </div>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li><a href="#top" class="active-el">Home</a></li>
+            <li><a href="#plugin_requirements">Plugin Requirements</a></li>
+            <li><a href="#plugin_installation">Plugin Installation</a></li>
+            <li><a href="#admin_panel">Admin Panel</a></li>
+            <li><a href="#global_switch">Global Switch</a></li>
+            <li><a href="#page_transitions">Page Transitions</a></li>
+            <li><a href="#display_settings">Display Settings</a></li>
+            <li><a href="#preloaders">Preloaders</a></li>
+            <li><a href="#transition_settings">Transitions Settings</a></li>
+            <li><a href="#pattern_settings">Pattern Settings</a></li>
+            <li><a href="#changes">Changes</a></li>
+            <li><a href="#exclusions">Exclusions</a></li>
+            <li><a href="https://codecanyon.net/user/gfxpartner" target="_blank">Contact</a></li>
+          </ul>
+          <script>
+            document.addEventListener('click', (e) => {
+              if ( e.target.matches('.nav a') ) {
+                let active = document.querySelector('.active-el');
+                active.classList.remove('active-el');
+                e.target.classList.add('active-el');
+              }
+            });
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Navbar -->
+
+  <!-- Main Container Beginning -->
+
+  <div class="container page-container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="masthead" id="top">
+          <h1>Titan Preloaders & Page Transitions WordPress Plugin</h1>
+          <br>
+          <p class="marketing-byline">Made with &hearts; by <a href="https://codecanyon.net/user/gfxpartner">GFXPARTNER</a>
+          </p>
+          <div class="preview-container">
+            <img src="assets/img/preview.jpg" alt="Image" class="preview">
+          </div>
+    
+          <h1>All-in-one Preloader Plugin for WordPress that comes with intuitive editor, exclusive features & award-winning designs collection. Enhance the user experience with modern preloader designs brought to life with hand crafted beautiful animations.</h1>
+        </div>
+        <!-- masthead -->
+    
+        <div id="intro">
+          <p class="highlight hero-unit">Thank you for purchasing our plugin. If you have any questions that are beyond
+            the scope of this help file, please feel free to email via our user page contact form <a
+              href="https://codecanyon.net/user/gfxpartner">here</a>.</p>
+        </div>
+        <!-- intro -->
+    
+        <section id="plugin_requirements">
+          <div class="page-header">
+            <h1>Plugin Requirements</h1>
+          </div>
+          <p>To use this WordPress Plugin we recommend using a host that supports:</p>
+          <ul>
+            <li>PHP version 7.0 or greater.</li>
+            <li>MySQL version 5 or greater OR MariaDB version 10.0 or greater.</li>
+          </ul>
+          <p>We recommend you make sure that your server PHP configuration limits are as follows:</p>
+          <ul>
+            <li>max_execution_time 600</li>
+            <li>max_input_time 600</li>
+            <li>memory_limit 256M</li>
+            <li>post_max_size 128M</li>
+            <li>upload_max_filesize 128M</li>
+            <li>max_input_vars 3000</li>
+          </ul>
+        </section>
+        <hr />
+        <section id="wp_knowledge">
+          <div class="page-header">
+            <h1>WordPress Knowledge</h1>
+          </div>
+          <p>To install this plugin, you must have a working version of WordPress already installed. If you need help installing WordPress, follow the instructions in WordPress Codex or you can watch the. Below are the useful links for WordPress information.</p>
+          <ol>
+            <li><a href="https://wordpress.org/support/article/how-to-install-wordpress/">WordPress Codex</a> – general info about WordPress and how to install on your server</li>
+            <li><a href="https://wordpress.org/support/article/first-steps-with-wordpress-classic/">First Steps With WordPress</a> – general information that covers a wide variety of topics</li>
+            <li><a href="https://codex.wordpress.org/FAQ_New_To_WordPress">FAQ New To WordPress</a> – the most popular FAQ’s regarding WordPress</li>
+          </ol>
+        </section>
+        <hr />
+        <section id="plugin_installation">
+          <div class="page-header">
+            <h1>Plugin Installation</h1>
+          </div>
+          <p>Procedure for installing plugin</p>
+          <ul>
+            <li>Login to WordPress admin panel</li>
+            <li><div>Go to: Plugins</div>
+              <img src="assets/img/plugin-install-01.jpg" alt="image" loading="lazy">
+            </li>
+            <li><div>Click on the Add New button, then click on the Upload Plugin</div>
+              <img src="assets/img/plugin-install-02.jpg" alt="image" loading="lazy">
+              <img src="assets/img/plugin-install-03.jpg" alt="image" loading="lazy">
+            </li>
+            <li>Upload plugin 'titan-preloader' zip file
+              <img src="assets/img/plugin-install-04.jpg" alt="image" loading="lazy">
+            </li>
+            <li>Click on the Activate Plugin button</li>
+            <img src="assets/img/plugin-install-05.jpg" alt="image" loading="lazy">
+          </ul>
+        </section>
+        <hr />
+        <section id="admin_panel">
+          <div class="page-header">
+            <h1>Plugin Admin Panel</h1>
+          </div>
+          <p>You can access the plugin admin panel by clicking on the 'Titan Preloaders' menu item on your dashboard menu.</p>
+          <img src="assets/img/plugin-usage-01.jpg" alt="titan preloaders admin panel" loading="lazy">
+        </section>
+        <hr />
+        <section id="global_switch">
+          <div class="page-header">
+            <h1>Global Switch</h1>
+          </div>
+          <p>If turned off, the plugin will not display any preloaders to the page.</p>
+          <img src="assets/img/global-switch.jpg" alt="image" loading="lazy">
+        </section>
+        <hr />
+        <section id="page_transitions">
+          <div class="page-header">
+            <h1>Page Transitions</h1>
+          </div>
+          <p>If turned on, an outro animation will be played when leaving the current page.</p>
+          <img src="assets/img/page-transitions.jpg" alt="image" loading="lazy">
+        </section>
+        <section id="display_settings">
+          <div class="page-header">
+            <h1>Display Settings</h1>
+          </div>
+          <p>These settings allow you to choose how and where the preloaders should appear.</p>
+          <img src="assets/img/display-settings.jpg" alt="image" loading="lazy">
+          <ul>
+            <li>
+              <b>Sitewide</b>
+              <div>The preloaders will appear throughout the site</div>
+            </li>
+            <li>
+              <b>Once per tab</b>
+              <div>The preloaders will appear when the tab is opened for the first time and never again.</div>
+            </li>
+            <li>
+              <b>Homepage only</b>
+              <div>The preloaders will appear only on the homepage.</div>
+            </li>
+            <li>
+              <b>Homepage + once per tab</b>
+              <div>The preloaders will appear when the tab is opened for the first time and when the page being opened is the homepage.</div>
+            </li>
+          </ul>
+        </section>
+        <hr />
+        <section id="preloaders">
+          <div class="page-header">
+            <h1>Preloaders</h1>
+          </div>
+          <p>This section is the heart of the plugin. It allows you to select and customize the preloaders to your hearts content.</p>
+          <img src="assets/img/preloaders.jpg" alt="image" loading="lazy">
+          <ul>
+            <li>
+              All the preloaders are present at the top. Clicking a preloader will select that preloader.
+            </li>
+            <li>
+              Once a particular preloader is selected you can scroll down and customize the preloader to your liking.
+            </li>
+            <li>
+              It is important to click 'Save' to make sure that your changes are saved.
+            </li>
+          </ul>
+        </section>
+        <hr/>
+        <section id="transition_settings">
+          <div class="page-header">
+            <h1>Transitions Settings</h1>
+          </div>
+          <p>Most of the preloaders have 'Transition Settings' associated with them.</p>
+          <img src="assets/img/transition-settings.jpg" alt="image" loading="lazy">
+          <ul>
+            <li>
+              <b>Intro Transition</b>
+              <div>This transition is played when the page is loaded and the preloader hides to reveal the page.</div>
+            </li>
+            <li>
+              <b>Outro Transition</b>
+              <div>This transition is played when the user clicks a link to leave the current page and the preloader is revealed to hide the page. Note: 'Page Transitions' in the 'General' section must be turned on for the outro transition to play.</div>
+            </li>
+            <li>
+              Some transitions have additional fields to further modify the transition. These additional fields will appear below the corresponding transition field.
+            </li>
+          </ul>
+        </section>
+        <hr/>
+        <section id="pattern_settings">
+          <div class="page-header">
+            <h1>Pattern Settings</h1>
+          </div>
+          <p>Some of the preloaders have 'Pattern Settings' associated with them.</p>
+          <img src="assets/img/pattern-settings.jpg" alt="image" loading="lazy">
+          <ul>
+            <li>
+              <b>Pattern</b>
+              <div>Choose the type of character that should make up the pattern or disable it if you like to.</div>
+            </li>
+            <li>
+              <b>Pattern Color</b>
+              <div>This is the color of the characters used in the pattern.</div>
+            </li>
+            <li>
+              <b>Pattern Rows and Pattern Columns</b>
+              <div>You can specify how many rows and columns you would like to have in the pattern.</div>
+            </li>
+          </ul>
+        </section>
+        <hr/>
+        <section id="changes">
+          <div class="page-header">
+            <h1>Changes</h1>
+          </div>
+          <img src="assets/img/changes.jpg" alt="image" loading="lazy">
+          <ul>
+            <li>
+              <b>Save Changes</b>
+              this button saves your changes. It is important to click this button to make sure the changes take effect.
+            </li>
+            <li>
+              <b>Reset Section</b>
+              This button resets the current section back to the default settings. When the button is clicked in 'General' section, all the settings present in that section will return to their default values.
+            </li>
+            <li>
+              <b>Reset All</b>
+              This button resets all the settings in all the sections back to the default values.
+            </li>
+          </ul>
+        </section>
+        <hr />
+        <section id="exclusions">
+          <div class="page-header">
+            <h1>Exclusions</h1>
+          </div>
+          <p>This section allows you to exclude specific pages, posts or any post types. Once excluded, preloaders will not appear on excluded items.</p>
+          <img src="assets/img/exclusion.jpg" alt="image" loading="lazy">
+        </section>
+        <hr />
+        <div class="goodbye">
+          <p>Once again, thanks for purchasing this plugin and if you have any questions relating to this plugin, feel free to ask them as we will be more than happy to help you.</p>
+        </div>
+        <hr />
+        <footer>
+          <p>&copy; 2023 - GFXPARTNER</p>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <!-- /container -->
+
+  <!-- Le javascript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/google-code-prettify/prettify.js"></script>
+  <script src="assets/js/bootstrap-transition.js"></script>
+  <script src="assets/js/bootstrap-alert.js"></script>
+  <script src="assets/js/bootstrap-modal.js"></script>
+  <script src="assets/js/bootstrap-dropdown.js"></script>
+  <script src="assets/js/bootstrap-scrollspy.js"></script>
+  <script src="assets/js/bootstrap-tab.js"></script>
+  <script src="assets/js/bootstrap-tooltip.js"></script>
+  <script src="assets/js/bootstrap-popover.js"></script>
+  <script src="assets/js/bootstrap-button.js"></script>
+  <script src="assets/js/bootstrap-collapse.js"></script>
+</body>
+
+</html>
